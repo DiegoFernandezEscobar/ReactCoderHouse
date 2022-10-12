@@ -3,3 +3,30 @@
 font-family: 'Poppins', sans-serif;
 margin: 5%;
 }
+.container{
+    max-width: 100%;
+
+}
+
+.FlexBox{
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+        
+}
+.card{
+    
+    align-items: center;
+    
+
+}
+
+.spinner{
+    align-items: center;
+}
+.contenedor-producto{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}

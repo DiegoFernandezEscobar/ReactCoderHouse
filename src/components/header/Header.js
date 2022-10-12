@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
        <CollapsibleExample/>
-       <Slider/> 
+       {/* Contenido de "Slider" */}
     </div>
   )
 }

@@ -1,0 +1,56 @@
+*{font-family: 'Pathway Gothic One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+font-weight: 900;
+}
+.card{
+ max-width:max-content;
+ margin: 10px;
+}
+.titulo-card{
+    color: orange;
+    border-radius: 60%;
+    background-color: rgb(254, 243, 229);
+    font-weight: 900;
+    text-align: center;
+    height: 20%;
+}
+
+.logo-card{
+    align-items: center;
+    margin: auto;
+}
+.logo-img-card{
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    margin-left: 10%;
+}
+
+.aerocoder{
+    margin-left: 10%;
+    color: orange;
+    font-weight: 900;
+}
+
+.info-card{
+    margin: 10% 15%;
+    height: 150px;
+    width: 80%;
+    overflow: scroll;
+    font-size: 13px;
+    
+}
+
+.precio{
+   font-size: larger;
+}
+.btnVermas{
+    background-color: rgba(194, 221, 153, 0.603);
+    color: black;
+    font-weight: 900;
+}
+.spinner{
+    align-items: center;
+    margin-left: 50%;
+    width: 25%;
+}

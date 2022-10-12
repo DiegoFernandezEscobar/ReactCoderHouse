@@ -1,53 +1,19 @@
-import Carousel from 'react-bootstrap/Carousel';
-import playa from "../../../assets/playa.jpg"
-import tailandia from "../../../assets/tailandia.jpg"
-import ny from "../../../assets/ny.jpg"
+import React from 'react'
 import "./slider.css"
 
-
-function Slider() {
+const Slider = () => {
   return (
-      <div className='caja-madre-slider'>
-    <Carousel fade>
-
-      <Carousel.Item className='img-carrucel'>
-        <img
-          className="d-block w-100"
-          src= {playa}
-          alt="First slide"
-          />
-        <Carousel.Caption className='texto-carrucel'>
-          <h1>Viaja a donde quieras</h1>
-          <p>Hacerlo nunca fue tan facil con AeroCoder.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className='img-carrucel'>
-        <img
-          className="d-block w-100"
-          src={tailandia}
-          alt="Second slide"
-          />
-
-<Carousel.Caption className='texto-carrucel'>
-          <h1>Viaja a donde quieras</h1>
-          <p>Hacerlo nunca fue tan facil con AeroCoder.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className='img-carrucel'>
-        <img
-          className="d-block w-100"
-          src={ny}
-          alt="Third slide"
-          />
-
-<Carousel.Caption className='texto-carrucel'>
-          <h1>Viaja a donde quieras</h1>
-          <p>Hacerlo nunca fue tan facil con AeroCoder.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-          </div>
-  );
+    <div className='SliderContainer'>
+      <div className='divPadre'>
+      <h1 className='h1'>
+        Queres volar con descuento y en cuotas?
+      </h1>
+      <div>
+        
+      </div>
+      </div>
+    </div>
+  )
 }
 
-export default Slider;
+export default Slider

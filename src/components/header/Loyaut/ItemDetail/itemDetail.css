@@ -1,0 +1,58 @@
+.card-detail{
+   margin-left: 25%;
+   
+}
+.titulo-card-detail{
+    font-size: 2rem;
+    padding: 3%;
+    color: orange;
+    border-radius: 60%;
+    background-color: rgb(254, 243, 229);
+    font-weight: 900;
+    text-align: center;
+    height: 20%;
+}
+.subtitulo-detail{
+    margin: 5% 0%;
+
+}
+.logo-img-card-detail{
+    margin: auto;
+    width: 25%;
+    height: 25%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.aerocoder-detail{
+    margin-left: 10%;
+    color: orange;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.info-card-detail{
+    align-content: center;
+    margin: 10%;
+}
+.caja-info-detail{
+    margin: 10% ;
+    align-items: center;
+}
+.titulo-info-detail{
+    font-weight: 600;
+}
+.precio-card-detail{
+    border: solid rgb(171, 207, 171) ;
+    background-color: rgb(185, 205, 185);
+    border-radius: 35%;
+    font-size: 50px;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+.btnHome{
+    background-color: rgb(255, 183, 48);
+    color: black;
+    height: auto;
+    border-radius: 35%;
+    font-size: small;
+    
+}

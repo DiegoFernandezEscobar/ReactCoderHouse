@@ -3,21 +3,21 @@ import React from 'react'
 const GridContact = () => {
   return (
     <div>
-        <div class="container text-center">
-  <div class="row">
-    <div class="col">
+        <div className="container text-center">
+  <div className="row">
+    <div className="col">
       1 of 2
     </div>
   </div>
   
-  <div class="row">
-    <div class="col">
+  <div className="row">
+    <div className="col">
       1 of 3
     </div>
-    <div class="col">
+    <div className="col">
       2 of 3
     </div>
-    <div class="col">
+    <div className="col">
       3 of 3
     </div>
   </div>
